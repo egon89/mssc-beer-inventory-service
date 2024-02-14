@@ -20,6 +20,8 @@ public class JmsConfig {
 
   public static final String QUEUE_ORDER_SERVICE = "queue_inventory_service";
 
+  public static final String NEW_INVENTORY_QUEUE = "new-inventory";
+
   @Bean
   public JmsListenerContainerFactory<?> myFactory(
       ConnectionFactory connectionFactory,
